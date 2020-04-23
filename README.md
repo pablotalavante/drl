@@ -1,6 +1,6 @@
 ## **Project details:**
     
-This project trains an agent in a Unity environment to move a robotic arm to reach a green ball that is circling around it. There are 4 possible continuous acitions that aplly a torque to the joints:
+This project trains an agent in a Unity environment to move a robotic arm to reach a green ball that is circling around it. There are 4 possible continuous acitions that apply a torque to the joints to control the final position of the hand along time:
     
 A reward of +0.1 is given if the hand of the robot is close to the objective.
 
