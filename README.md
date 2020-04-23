@@ -27,3 +27,5 @@ pip install requirements.txt
 The notebook training_.ipynb constains the script to train the agent. 
 
 Once the agent is trained, the notebook acting_.ipynb takes the trained agent and uses it to see a working agent, with a policy without noise.
+
+The report is on Report.ipynb
