@@ -1,7 +1,6 @@
 ## **Project details:**
     
-This project trains an agent in a Unity environment to move to pick up yellow bananas and avoid blue banannas.
-There are 4 possible continuous acitions that aplly a torque to the joints:
+This project trains an agent in a Unity environment to move a robotic arm to reach a green ball that is circling around it. There are 4 possible continuous acitions that aplly a torque to the joints:
     
 A reward of +0.1 is given if the hand of the robot is close to the objective.
 
