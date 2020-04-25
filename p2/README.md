@@ -1,10 +1,17 @@
 ## **Project details:**
     
-This project trains an agent in a Unity environment to move a robotic arm to reach a green ball that is circling around it. There are 4 possible continuous acitions that apply a torque to the joints to control the final position of the hand along time:
+This project trains an agent in a Unity environment to move a robotic arm to reach a green ball that is circling around it. There are **4 possible continuous acitions** that apply a torque to the joints to control the final position of the hand along time:
     
 A reward of +0.1 is given if the hand of the robot is close to the objective.
 
-The whole state is complex, but the state we observe is made of 33 different signals that the agent takes as inputs. With that inputs the agent must learn a policy to act to maximize reward.
+The whole state is complex, but the state we observe is made of **33 different signals** that the agent takes as inputs. With that inputs the agent must learn a policy to act to maximize reward.
+
+There are 2 versions of the environment. The version 1 consist on just one agent. The version 2 consists on 20 pararell agents, but the problem is the same. A environment is considered solved when:
+
+ - [version 1] the agent receives an average reward (over 100 episodes) of at least +30, or
+ - [version 2] the agent is able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30.
+ 
+The problem chosen here was the **version 1**.
 
 ## **Getting started:**
 
